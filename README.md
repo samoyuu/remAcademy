@@ -11,20 +11,16 @@ Each learning point should be an atomic-level detail that revolves around 1-2 fl
 into categories that align with what you'll create flashcards for in a general science textbook, including
 problems and exercises. The system aims to ensure you've mastered the relevant learning points before showing
 you problems, to avoid having to backtrack on your learning and second-guessing what you have(n't) learned.
-For me, I generate the knowledge graph via Claude, and the learning points give me some structure when 
-studying from a textbook or a set of notes.
+For me, I generate the knowledge graph via Claude, and I write flashcards based off of the learning points
+generated when I go through a textbook or set of notes. This helps me stay focused on the content without
+worrying about what to include/not include, and I find it generally does a good job of identifying the key 
+learning points.
 
 Thus, the philosophy of this plugin is to leverage LLMs to enable active learning. Instead of passively consuming
 lecture notes and videos, the focus is on proactively mapping out the learning requirements and key
 points of each topic. Combined with spaced repetition and deliberate practice in RemNote, 
-the goal is to ensure a more thorough and deeper understanding of a subject, and hopefully 
-make the learning process smoother.
+the goal is to ensure a more thorough and deeper understanding of a subject.
 
-This is a (fairly) simple implementation of the effective learning principles outlined in
-the Math Academy Way, for my own purposes (self-learning university physics). Something as complex
-as the adaptive learning system in MA is probably far too complicated to replicate and not worth
-the effort and tokens. Instead, this is meant as a bridge from classical learning through textbooks
-and lectures, and implement a basic structure to guide your own learning.
 
 ## How it works
 
@@ -67,6 +63,12 @@ Everything else uses RemNote's normal scheduling.
 ## Future plans
 
 Not really.
+
+This is a (fairly) simple implementation of the effective learning principles outlined in
+the Math Academy Way, for my own purposes (self-learning university physics). Something as complex
+as the adaptive learning system in MA is probably far too complicated to replicate and not worth
+the effort and tokens. Instead, this is meant as a bridge from classical learning through textbooks
+and lectures, and implement a basic structure to guide your own learning.
 
 ## Dashboard
 
