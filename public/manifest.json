@@ -1,7 +1,7 @@
 {
   "author": "samoyu",
   "name": "Learning System",
-  "description": "Based on MathAcademy's learning system",
+  "description": "Prerequisite-gated mastery tracker: locks practice-problem flashcards until their prerequisite concepts are mastered, MathAcademy-style.",
   "enableOnMobile": false,
   "id": "samoyu-1tycg1w",
   "repoUrl": "https://github.com/samoyuu/remAcademy.git",
